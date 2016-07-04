@@ -1,3 +1,4 @@
+// Explaination :a:
 //app.factory('a', fn);
     //cache.a = fn()
 //app.service('b', fn);
@@ -23,7 +24,7 @@ myApp.factory('helloWorldFromFactory', function() {
     };
 });
 
-//provider style, full blown, configurable version     
+//provider style, full blown, configurable version
 myApp.provider('helloWorld', function() {
     // In the provider function, you cannot inject any
     // service or factory. This can only be done at the
@@ -45,7 +46,7 @@ myApp.provider('helloWorld', function() {
     };
 });
 
-//hey, we can configure a provider!            
+//hey, we can configure a provider!
 myApp.config(function(helloWorldProvider){
     helloWorldProvider.setName('World');
 });
