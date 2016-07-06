@@ -1,2 +1,8 @@
 # Angularus
-AngularJS code snipets
+Collection of angular 1.X  examples
+## Installation
+
+## Usage
+
+## License
+(c) MIT
